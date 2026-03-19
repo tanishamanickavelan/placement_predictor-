@@ -1,4 +1,3 @@
-# placement_predictor-
 # 🎓 Placement Predictor
 
 This project predicts whether a student will get placed based on academic and skill factors.
