@@ -1,23 +1,20 @@
 # 🎓 Student Placement Predictor
 
-A Machine Learning project that predicts whether a student will get placed based on academic performance and skills.
+A Machine Learning project that predicts whether a student will be placed or not based on academic performance and skills.
 
 ---
 
-## 📊 Project Overview
+## ✅ Project Checklist (Requirement)
 
-This project uses a classification model to analyze student data such as CGPA, internships, projects, and aptitude scores to predict placement status.
-
----
-
-## 🔗 Colab Notebook (Full Implementation)
-
-👉 [View Complete Project in Google Colab](https://colab.research.google.com/drive/1PFg8cIxupFUF6HsFs00cSKXiveYdLn4I?usp=drive_link)
+### 🎯 Problem Statement
+To develop a classification model that predicts whether a student will get placed based on academic and skill-based features.
 
 ---
 
-## ⚙️ Features Used
+### 📊 Dataset
+We used the **Placement Prediction Dataset (Ruchika Kumbhar)** containing 10,000 student records.
 
+#### 📌 Features:
 - CGPA  
 - Internships  
 - Projects  
@@ -27,28 +24,56 @@ This project uses a classification model to analyze student data such as CGPA, i
 - SSC Marks  
 - HSC Marks  
 
+#### 🎯 Target:
+- PlacementStatus (Placed / Not Placed)
+
 ---
 
-## 🤖 Model Used
+### 🤖 Algorithm Used
+- Logistic Regression (Binary Classification)
 
-- Logistic Regression  
-- Accuracy: ~80%
+#### ✔ Why this algorithm?
+- Suitable for Yes/No prediction  
+- Simple and efficient  
+- Easy to interpret  
+
+---
+
+## 📊 Model Performance
+
+- Accuracy: ~80%  
+- Type: Binary Classification  
+
+---
+
+## 🔗 Colab Notebook
+
+👉 https://colab.research.google.com/drive/1PFg8cIxupFUF6HsFs00cSKXiveYdLn4I?usp=drive_link
 
 ---
 
 ## 🧠 Workflow
 
-1. Data Cleaning  
-2. Handling Missing Values  
-3. Feature Selection  
-4. Model Training  
-5. Model Evaluation  
-6. Model Saving  
-7. UI Development using Streamlit  
+1. Data Loading  
+2. Data Cleaning (removed unnecessary columns)  
+3. Handling Missing Values  
+4. Feature Selection  
+5. Model Training  
+6. Model Evaluation  
+7. Model Saving using Joblib  
+8. UI Development using Streamlit  
 
 ---
 
-## 🖥️ Run Locally
+## 🖥️ Streamlit App
+
+This project includes a simple UI where users can:
+- Enter student details  
+- Get real-time placement prediction  
+
+---
+
+## ▶️ Run Locally
 
 ```bash
 pip install -r requirements.txt
