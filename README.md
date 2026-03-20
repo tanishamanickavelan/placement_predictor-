@@ -4,6 +4,12 @@ A Machine Learning project that predicts whether a student will be placed or not
 
 ---
 
+## 🌐 Live Demo
+
+👉 https://eakuwglmeg8kwqze2fj6it.streamlit.app/
+
+---
+
 ## ✅ Project Checklist (Requirement)
 
 ### 🎯 Problem Statement
@@ -12,7 +18,7 @@ To develop a classification model that predicts whether a student will get place
 ---
 
 ### 📊 Dataset
-We used the **Placement Prediction Dataset (Ruchika Kumbhar)** containing 10,000 student records.
+We used the Placement Prediction Dataset (Ruchika Kumbhar) containing 10,000 student records.
 
 #### 📌 Features:
 - CGPA  
@@ -55,21 +61,23 @@ We used the **Placement Prediction Dataset (Ruchika Kumbhar)** containing 10,000
 ## 🧠 Workflow
 
 1. Data Loading  
-2. Data Cleaning (removed unnecessary columns)  
+2. Data Cleaning (removed unnecessary columns like StudentID)  
 3. Handling Missing Values  
 4. Feature Selection  
-5. Model Training  
+5. Model Training (Logistic Regression)  
 6. Model Evaluation  
 7. Model Saving using Joblib  
 8. UI Development using Streamlit  
+9. Deployment using Streamlit Cloud  
 
 ---
 
 ## 🖥️ Streamlit App
 
-This project includes a simple UI where users can:
+The application allows users to:
 - Enter student details  
-- Get real-time placement prediction  
+- Predict placement status instantly  
+- View results in a simple interface  
 
 ---
 
@@ -78,6 +86,3 @@ This project includes a simple UI where users can:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
-
-
