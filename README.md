@@ -79,6 +79,5 @@ This project includes a simple UI where users can:
 pip install -r requirements.txt
 streamlit run app.py
 
-## SCREENSHOT OF D
 
 
