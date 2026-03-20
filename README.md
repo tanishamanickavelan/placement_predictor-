@@ -78,3 +78,7 @@ This project includes a simple UI where users can:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## SCREENSHOT OF D
+
+
