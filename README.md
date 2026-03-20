@@ -18,12 +18,14 @@ To develop a classification model that predicts whether a student will get place
 ---
 
 ### 📊 Dataset
-We used the Placement Prediction Dataset (Ruchika Kumbhar) containing 10,000 student records.
+Used the Placement Prediction Dataset (Ruchika Kumbhar) containing 10,000 student records.
+https://www.kaggle.com/datasets/ruchikakumbhar/placement-prediction-dataset
 
 #### 📌 Features:
 - CGPA  
 - Internships  
-- Projects  
+- Projects
+- 
 - Workshops/Certifications  
 - Aptitude Test Score  
 - Soft Skills Rating  
