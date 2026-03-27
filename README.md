@@ -25,7 +25,6 @@ https://www.kaggle.com/datasets/ruchikakumbhar/placement-prediction-dataset
 - CGPA  
 - Internships  
 - Projects
-- 
 - Workshops/Certifications  
 - Aptitude Test Score  
 - Soft Skills Rating  
